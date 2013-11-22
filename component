@@ -1,3 +1,4 @@
+<xsl:template match="/">
 <div id="manual_box" class="w_auto comp comp2">
 				<h2 class="hidden"><xsl:value-of select="/Properties/Data/Group[@Name='Header']/Datum[@Name='Title']"/></h2>
 				<xsl:if test="string-length(/Properties/Data/Group[@Name='List Item']/Datum[@Name='Label']) > 0">
@@ -24,4 +25,5 @@
 						</xsl:for-each>						
 					</ul>
 				</xsl:if>
-			</div>
+</div>
+</xsl:template>
