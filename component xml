@@ -1,0 +1,11 @@
+<Data>
+  <Group Exposed="true" ID="Header" Name="Header">
+    <Datum ID="HeaderTitle" Name="Title" Type="String">Section Title</Datum>
+  </Group>
+  <Group Exposed="true" ID="C01" Name="List Item" Replicatable="true">
+    <Datum ID="C01-D01" Name="Label" Type="String">List Item 1</Datum>
+    <Datum ID="C01-D02" Name="Link" Type="File"><![CDATA[Http://www.bbc.co.uk]]></Datum>
+    <Datum ID="C01-D03" Name="Alt" Type="String"/>
+    <Datum ID="C01-D04-0" Type="File" Name="img"/>
+  </Group>
+</Data>
